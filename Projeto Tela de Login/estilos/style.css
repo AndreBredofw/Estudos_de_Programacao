@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+:root{
+    --color1: #2A8C82;
+    --color2: #41BFB3;
+    --color3: #9BF2EA;
+    --color4: #275950;
+    --color5: #260101;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--color4);
+}
+
+article{
+    background-color: white;
+    height: 450px;
+    width: 70%;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+
+#imagem{
+    display: block;
+    background: url(../imagens/istockphoto-1368151370-2048x2048.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
