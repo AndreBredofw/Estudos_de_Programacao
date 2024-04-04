@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    height: 50px;
+    background-color: #a06e6e;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(156, 156, 156);
+}
+
