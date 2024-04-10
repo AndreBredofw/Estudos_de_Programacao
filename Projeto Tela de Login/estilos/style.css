@@ -34,9 +34,6 @@ article{
 
 }
 
-#formulario{
-    
-}
 
 form{
     margin: 10px;
@@ -77,6 +74,7 @@ form{
 div.campo > span{
     color: white;
     /* background-color: black;*/
+    font-size: 2em;
     width: 40px;
     padding: 5px;
 }
@@ -85,14 +83,13 @@ div.campo > span{
 .campo > input{
     background-color: var(--color3);
     color: white;
-   
+    width: calc(100% - 44.5px);
     border: 0px;
     border-radius: 8px;
     height: 40px;
-    
+    transform: translate(-52px);
     font-size: 1em;
     
-
 }
 
 form > input[type=submit]{
