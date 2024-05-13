@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 10px;
+}
+
+body{
+    background-color: #dbdadaec;
+}
+
+header{
+    
+    text-align: center;
+}
+
+#art_img{
+    background-color: white;
+    width: 98%;
+    margin: auto;
+
+    & p{
+        text-align: center;
+    }
+}
+
+#art_img > img{
+    display: block;
+    margin: auto;
+}
+
+#ul_li{
+    background-color: aqua;
+    font-size: 14px;  
+   margin-left: 35%;
+    width: 500px;
+
+}
+
+
+ul{
+    
+    margin: -25px;
+   
+}
