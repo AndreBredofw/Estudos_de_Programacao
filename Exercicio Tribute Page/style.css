@@ -27,14 +27,18 @@ header{
     margin: auto;
 }
 
-#ul_li{
-    background-color: aqua;
-    font-size: 14px;  
-   margin-left: 35%;
-    width: 500px;
-
+#ul_li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Opcional: define a altura da seção para ocupar toda a altura da tela */
 }
 
+.box {
+    width: 80%; /* Define a largura do conteúdo */
+    max-width: 450px; /* Define a largura máxima do conteúdo */
+    font-size: 14px;
+}
 
 ul{
     
