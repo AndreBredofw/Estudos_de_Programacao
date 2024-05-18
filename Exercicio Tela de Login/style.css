@@ -3,17 +3,19 @@
     margin: 0px;
 }
 
+body{
+   margin: 0 auto;
+}
+
 h1{
     text-align: center;
 }
 
 form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
+  display: inline-block;
 }
 
 form > div{
-    width: 90%;
-    max-width: 500px;
+  
 }
