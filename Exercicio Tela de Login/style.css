@@ -19,15 +19,24 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
-  margin-bottom: -350px;
+  margin-top: 200px;
+  margin-bottom: -250px;
   
 }
 
-form{
+input{
+  border-radius: 5px;
+  height: 20px;
+  width: 500px;
 
+}
+
+input[type="radio"]{
+   width: 100px;
+ }
+
+form{
   padding: 10px;
-   
   
 }
 
@@ -36,4 +45,8 @@ input{
 }
 #fem_label{
   padding-left: 35px;
+}
+
+#dados_acesso{
+  margin-top: 50px;
 }
