@@ -4,7 +4,18 @@
 }
 
 body{
-  background-color: rgb(168, 168, 236);
+  background-color: rgb(255, 255, 255);
+}
+
+header{
+  width: 100%;
+  height: 105px;
+  background-color: gray;
+}
+
+header img{
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 #centerform{
@@ -19,20 +30,24 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
-  margin-bottom: -250px;
+  margin-top: 160px;
+  margin-bottom: -140px;
   
 }
 
 input{
   border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.329);
   height: 20px;
   width: 500px;
+  padding: 7px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 
 }
 
 input[type="radio"]{
-   width: 100px;
+   width: 50px;
  }
 
 form{
@@ -49,4 +64,9 @@ input{
 
 #dados_acesso{
   margin-top: 50px;
+}
+
+.espacamento_dadosacesso{
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
