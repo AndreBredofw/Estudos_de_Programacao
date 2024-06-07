@@ -25,6 +25,11 @@ header img{
 
 }
 
+div nav{
+  color: #0033C6;
+  font-family: 'Nunito', sans-serif;
+}
+
 nav{
   padding-left: 30px;
 }
@@ -83,4 +88,16 @@ input{
   margin-bottom: 15px;
   color: #0033C6 ;
   font-family: 'Nunito', sans-serif;
+}
+
+
+button{
+  width: 500px;
+  height: 40px;
+  display: block;
+  margin: auto;
+  background-color: #0033C6;
+  color: white;
+  border: transparent;
+  border-radius: 7px;
 }
