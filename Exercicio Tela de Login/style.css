@@ -13,7 +13,7 @@ header{
   background-color: #F7F7F7
 }
 
-header img{
+header > img{
   margin-top: 40px;
   margin-left: 400px;
 }
@@ -31,8 +31,14 @@ div nav{
 }
 
 nav{
-  padding-left: 30px;
+ padding-left: 60px;
 }
+
+nav > img{
+  padding-right: 10px;
+}
+
+
 
 #centerform{
   display: flex;
@@ -65,6 +71,10 @@ input{
 
 input[type="radio"]{
    width: 50px;
+ }
+
+ label{
+  color: rgb(80, 79, 79);
  }
 
 form{
